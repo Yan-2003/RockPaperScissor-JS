@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body{
+    background-color: rgb(118, 118, 161);
+}
+
+header{
+    color: white;
+    padding: 1rem;
+}
+header span{
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(149, 20, 20);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px rgb(34, 41, 70) solid;
+    border-radius: 10px;
+}
+
+.player{
+    padding: 40px;
+}
+.player h1{
+    font-size: 30px;
+    color: blue;
+}
+
+.player img{
+    width: 150px;
+    margin: 1rem;
+    transition: 280ms;
+}
+.player img:hover{
+    box-shadow: rgba(0, 0, 255, 0.84) 0px 0px 20px;
+}
+
+.bot{
+    padding: 40px;
+}
+.bot h1{
+    font-size: 30px;
+    color: red;
+}
+
+.bot img{
+    width: 150px;
+    padding: 1rem;
+}
+
+.lowwer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 5rem;
+    border: 5px rgb(34, 41, 70) solid;
+    border-radius: 10px;
+}
+
+.lowwer img{
+    width: 200px;
+}
+
+.player-choice img{
+    box-shadow: rgba(0, 0, 255, 0.855) 0px 0px 20px;
+}
+
+.bot-choice img{
+    box-shadow: rgba(255, 0, 0, 0.855) 0px 0px 20px;
+}
+
+.result{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.win{
+    color: rgb(0, 240, 24);
+    font-size: 30px;
+}
+.lose{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.tie{
+    color:  rgb(255, 218, 105);
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Rock paper Scissors Game</title>
+</head>
+<body>
+    <header>
+        <h1>Rock paper Scissors Game made by: <span class="name">Kingramon KD</span></h1>
+    </header>
+    <main>
+        <div class="upper">
+            <div class="player">
+                <h1>Player</h1>
+                <img id = "rock" src="../assets/img/rock.png" alt="" onclick="play(this)">
+                <img id = "paper" src="../assets/img/paper.png" alt="" onclick="play(this)">
+                <img id = "scissor" src="../assets/img/scissor.png" alt="" onclick="play(this)">
+            </div>
+            <div class="bot">
+                <h1>Bot</h1>
+                <img src="../assets/img/rock.png" alt="">
+                <img src="../assets/img/paper.png" alt="">
+                <img src="../assets/img/scissor.png" alt="">
+            </div>
+        </div>
+        <div class="lowwer" id="lower">
+           <div class="player-choice" id="playerC">
+            <img id = "playerResult" src="../assets/img/unknown.png" alt="">
+           </div>
+           <div class="result" id="result">
+            <h1 id="textResult" >VS</h1>
+           </div>
+           <div class="bot-choice" id="botC">
+            <img id = "botResult"src="../assets/img/unknown.png" alt="">
+           </div>
+        </div>
+    </main>
+</body>
+</html>
